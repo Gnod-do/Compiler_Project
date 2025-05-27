@@ -1,0 +1,9 @@
+numtype x.
+numtype i.
+x := 10.
+outprint(x, "; ").
+loopfor (i := 0. i < 5. i := i + 1.) {
+    x := x + 1.
+    outprint(x, "; ").
+}
+

@@ -1,0 +1,14 @@
+numtype x := 10.
+numtype y := 9.
+x := x + 2.
+y := y + 3.
+booltype res := (T).
+cond (x > y) {
+    res := (T).
+} otherwise {
+    res := (F).
+}
+outprint("Значение res = ", res).
+outprint("Значение x = ", x).
+outprint("Значение y = ", y).
+

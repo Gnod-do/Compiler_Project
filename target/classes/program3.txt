@@ -1,0 +1,11 @@
+booltype b := (T).
+booltype c := (F).
+booltype res.
+res := not c or b.
+outprint("res = ", res).
+cond (b == res) {
+    outprint(" res = ", res, " и = b!").
+} otherwise {
+    outprint(" b = ", b).
+}
+

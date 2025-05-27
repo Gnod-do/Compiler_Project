@@ -1,0 +1,14 @@
+/*
+Комментарии
+Комментарии
+Комментарии
+*/
+numtype x := 43.
+numtype y := 9.
+numtype res := 1.
+loopwhile (res != 0) {
+    res := x mod y.
+    outprint("The remainder when dividing ", x, " by ", y, " is ", res, "; ").
+    x := x - res.
+    y := res + 1.
+}
